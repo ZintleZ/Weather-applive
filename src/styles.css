@@ -108,3 +108,14 @@ main {
   align-items: center;
   padding: 10px;
 }
+.repo-btn {
+  display: flex;
+  margin-top: 50px;
+  justify-content: center;
+  align-items: center;
+  padding: 10px;
+}
+.repo {
+  padding: 20px;
+  text-decoration: none;
+}
