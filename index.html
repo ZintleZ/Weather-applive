@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Weather App</title>
+    <link rel="stylesheet" href="/src/styles.css" />
+  </head>
+  <body>
+    <div class="app-wrap">
+      <h1 style="text-align: center; margin-top: 20px;">Weather App</h1>
+      <h4 class="date"></h4>
+      <div class="deg">
+        <h4 class="num">17</h4>
+        <button class="btn1">Celsius to Fahrenheit</button>
+        <button class="btn2">Fahrenheit to Celsius</button>
+        <br />
+
+        <button id="current-location">Current Location</button>
+      </div>
+      <header>
+        <input
+          type="text"
+          autocomplete="off"
+          class="search-box"
+          placeholder="Search for a city..."
+        />
+      </header>
+      <div style="display: flex; margin-top: 50px;">
+        <main>
+          <section class="location">
+            <div class="city">Johannesburg, ZA</div>
+            <div class="date">Sunday 02 July 2023</div>
+          </section>
+          <div class="current">
+            <div class="temp">15<span>°c</span></div>
+            <div class="weather">Sunny</div>
+            <div class="hi-low">13°c / 16°c</div>
+            <div class="weather">humidity</div>
+            <div class="hi-low">20%</div>
+          </div>
+        </main>
+        <main>
+          <section class="location">
+            <div class="city">Johannesburg, ZA</div>
+            <div class="date">Monday 03 July 2023</div>
+          </section>
+          <div class="current">
+            <div class="temp">10<span>°c</span></div>
+            <div class="weather">Cold</div>
+            <div class="hi-low">8°c / 13°c</div>
+            <div class="weather">humidity</div>
+            <div class="hi-low">40%</div>
+          </div>
+        </main>
+        <main>
+          <section class="location">
+            <div class="city">Johannesburg, ZA</div>
+            <div class="date">Tuesday 04 July 2023</div>
+          </section>
+          <div class="current">
+            <div class="temp">9<span>°c</span></div>
+            <div class="weather">Cold</div>
+            <div class="hi-low">7°c / 12°c</div>
+            <div class="weather">humidity</div>
+            <div class="hi-low">100%</div>
+          </div>
+        </main>
+        <main>
+          <section class="location">
+            <div class="city">Johannesburg, ZA</div>
+            <div class="date">Wednesday 04 July 2023</div>
+          </section>
+          <div class="current">
+            <div class="temp">13<span>°c</span></div>
+            <div class="weather">Cold</div>
+            <div class="hi-low">10°c / 16°c</div>
+            <div class="weather">humidity</div>
+            <div class="hi-low">60%</div>
+          </div>
+        </main>
+        <main>
+          <section class="location">
+            <div class="city">Johannesburg, ZA</div>
+            <div class="date">Thursday 05 July 2023</div>
+          </section>
+          <div class="current">
+            <div class="temp">10<span>°c</span></div>
+            <div class="weather">Cold</div>
+            <div class="hi-low">8°c / 13°c</div>
+            <div class="weather">humidity</div>
+            <div class="hi-low">80%</div>
+          </div>
+        </main>
+      </div>
+    </div>
+    <script src="/src/index.js"></script>
+    <script src="/script.js"></script>
+  </body>
+</html>
